@@ -4,7 +4,7 @@ import {BrowserRouter} from 'react-router-dom';
 import App from "./App";
 
 
-const rootElement = document.querySelector('#root');
+const rootElement = document.querySelector("#root");
 const root = ReactDOM.createRoot(rootElement);
 
 root.render(

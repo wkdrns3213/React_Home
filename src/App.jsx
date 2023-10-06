@@ -1,14 +1,12 @@
-// src/App.js
-
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 import {Provider} from 'react-redux';
 import store from './store/Store';
 import Home from './components/Home';
-import Login from './components/Login';
-import Board from './components/Board';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Login from "./components/Login";
+import Register from "./components/Register";
 
 function App() {
     return (
@@ -17,7 +15,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/login" element={<Login/>}/>
-                <Route path="/board" element={<Board/>}/>
+                <Route path="/register" element={<Register/>}/>
             </Routes>
             <Footer/>
         </Provider>

@@ -13,7 +13,7 @@ function Header() {
                             <a className="navbar-brand" href="/">conduit</a>
                             <ul className="nav navbar-nav pull-xs-right">
                                 <li className="nav-item">
-                                    <a className="nav-link active" href="/">Home</a>
+                                    <a className="nav-link" href="/">Home</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="/editor"> <i className="ion-compose"></i>&nbsp;New
@@ -25,9 +25,9 @@ function Header() {
                                         className="ion-gear-a"></i>&nbsp;Settings
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/profile/eric-simons">
-                                        <img src="" class="user-pic"/>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/profile/eric-simons">
+                                        <img src="" className="user-pic"/>
                                         Eric Simons
                                     </a>
                                 </li>
@@ -42,12 +42,12 @@ function Header() {
                             <a className="navbar-brand" href="/">conduit</a>
                             <ul className="nav navbar-nav pull-xs-right">
                                 <li className="nav-item">
-                                    <Link className="nav-link active" to="/">Home</Link>
+                                    <Link className="nav-link" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/login">Sign in</Link>
                                 </li>
-                                <li class="nav-item">
+                                <li className="nav-item">
                                     <Link className="nav-link" to="/register">Sign up</Link>
                                 </li>
                             </ul>
